@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+
+.header {
+  max-width: 114rem;
+  height: 100vh;
+  background-color: #000; }
+
+.navigation {
+  width: 100%;
+  height: 12vh;
+  background-color: #fff; }
+
+.logo {
+  display: inline-block;
+  float: left; }
+
+.logo img {
+  width: 60px;
+  position: absolute;
+  top: 0.6rem;
+  left: 1rem; }
+
+.lists {
+  float: right; }
+
+.list {
+  float: left;
+  list-style: none;
+  margin-top: 1.5rem; }
+
+.list a {
+  text-decoration: none;
+  color: black;
+  margin: 15px;
+  padding: 15px;
+  letter-spacing: 0.3rem; }
+
+.highlight-list a {
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  background-color: #000;
+  border-radius: 25px;
+  color: #fff;
+  vertical-align: middle;
+  font-weight: bold; }
+
+.highlight-list a:hover {
+  background-color: #C0C0C0;
+  color: #000;
+  font-weight: bold; }
+
+.info-text {
+  color: #fff;
+  max-width: 55%;
+  margin-left: 2rem;
+  margin-top: 3rem; }
+
+.main-heading {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 3.6rem;
+  text-transform: uppercase;
+  margin-bottom: 2rem; }
+
+.main-text {
+  font-size: 1.2rem;
+  line-height: 1.3rem;
+  width: 65%; }
+
+.bg-image {
+  position: absolute;
+  left: 10rem;
+  bottom: 0; }
+
+.aside-info {
+  width: 35%; }
+
+.overlay {
+  width: 26rem;
+  height: 14rem;
+  background-image: linear-gradient(180deg, #453A3A 7.85%, rgba(75, 65, 65, 0.60076) 44.64%, rgba(248, 218, 255, 0.2) 100%), url(../assests/maldives.jpg);
+  background-size: cover;
+  background-position: top;
+  background-color: #fff;
+  position: absolute;
+  top: 22%;
+  right: 10%;
+  border: 3px solid #fff; }
+
+.overlay-text {
+  position: relative;
+  top: 2.3rem;
+  font-size: 40px;
+  line-height: 45px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #FFFFFF; }
+
+.aside-learn {
+  background: rgba(255, 255, 255, 0.7);
+  transform: rotate(-0.67deg);
+  position: absolute;
+  top: 62%;
+  right: 23%;
+  padding: 1rem 3.5rem 1rem 3.5rem; }
+
+.learn-more {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 43px;
+  color: #000000; }
