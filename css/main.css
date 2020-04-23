@@ -1,15 +1,149 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+@media (max-width: 40rem) {
+
+.bg-image {
+  width: 20%;
+}
+.aside-info,
+.right-save {
+  display: none;
+}
+
+.documentry {
+  background-color: #fff;
+  margin-top: 1rem;
+  }
+
+  body {
+    display: block;
+  }
+
+  .save-planet {
+    width: 100vw;
+    background: black;
+    color: #fff;
+    display: block;
+  }
+
+}
+
+
+@media (max-width: 40rem) {
+
+
+.main-text {
+  display: none;
+}
+}
+
+
+
+.documentry {
+  background-color: #000;
+  margin-top: 5rem;
+  }
+
+.doc-1,
+.doc-2,
+.doc-3,
+.doc-4,
+.loc-1,
+.loc-2,
+.loc-3,
+.loc-4 {
+  max-width: 100%;
+  margin-top: 6rem;
+  display: inline-block; 
+  opacity: 0.9;
+}
+
+.doc-1 img,
+.doc-2 img,
+.doc-3 img,
+.doc-4 img {
+  width: 18rem;
+  width: 20%;
+  float: left;
+  margin-left: 5rem; }
+
+
+.loc-1 img,
+.loc-2 img,
+.loc-3 img,
+.loc-4 img {
+  width: 35%;
+  height: 15rem;
+  float: left;
+  margin-left: 5rem; 
+}
+
+
+.h1-style {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 3rem;
+  color: #fff;
+  float: left;
+  margin-left: 5rem;
+  vertical-align: middle;
+margin-top: 1rem; 
+width: 8%;
+}
+
+.p-style {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.3rem;
+  color: #FFFFFF;
+  float: left;
+  width: 35%;
+  margin-left: 3rem;
+ }
+.p-style-2{
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.3rem;
+  color: #FFFFFF;
+  float: left;
+  width: 20%;
+  margin-left: 3rem;
+ }
+
+.button a {
+  padding: 1rem;
+  float: left;
+  margin-left: 5rem;
+  background: #A9A9A9;
+  opacity: 0.9;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  line-height: 21px;
+margin-right: 0.5rem;
+margin-top: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
 
 body {
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Lato', sans-serif; 
+background-color: black;
+margin-left: 0.4.8rem;
+overflow-x: hidden;
+}
 
 .header {
-  max-width: 114rem;
+  max-width: 100%;
   height: 100vh;
-  background-color: #000; }
+  background-color: #000;
+  
+}
 
 .navigation {
   width: 100%;
@@ -57,32 +191,48 @@ body {
 .info-text {
   color: #fff;
   max-width: 55%;
-  margin-left: 2rem;
+  margin-left: 1.5rem;
   margin-top: 3rem; }
+
+  .info-news {
+    text-align: left;
+  }
+
+  .one-news-head{
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
 
 .main-heading {
   font-weight: bold;
   font-size: 3rem;
   line-height: 3.6rem;
   text-transform: uppercase;
-  margin-bottom: 2rem; }
+  margin-bottom: 2rem;
+animation: MoveInBottom 2s ease-out; }
 
 .main-text {
   font-size: 1.2rem;
   line-height: 1.3rem;
-  width: 65%; }
+  width: 65%; 
+animation: MoveInRight 2s ease-out;}
 
 .bg-image {
   position: absolute;
   left: 10rem;
-  bottom: 0; }
+  bottom: 0;
+  animation: scaleOut 1.5s ease-in;
+ }
 
 .aside-info {
-  width: 35%; }
+  width: 35%; 
+}
 
 .overlay {
   width: 26rem;
   height: 14rem;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(7.85%, #453A3A), color-stop(44.64%, rgba(75, 65, 65, 0.60076)), to(rgba(248, 218, 255, 0.2))), url(../assests/maldives.jpg);
+  background-image: -o-linear-gradient(top, #453A3A 7.85%, rgba(75, 65, 65, 0.60076) 44.64%, rgba(248, 218, 255, 0.2) 100%), url(../assests/maldives.jpg);
   background-image: linear-gradient(180deg, #453A3A 7.85%, rgba(75, 65, 65, 0.60076) 44.64%, rgba(248, 218, 255, 0.2) 100%), url(../assests/maldives.jpg);
   background-size: cover;
   background-position: top;
@@ -92,25 +242,307 @@ body {
   right: 10%;
   border: 3px solid #fff; }
 
-.overlay-text {
+.overlay-text a {
   position: relative;
   top: 2.3rem;
+  left: 0.8rem;
   font-size: 40px;
   line-height: 45px;
   letter-spacing: 2px;
   text-align: center;
-  color: #FFFFFF; }
+  color: #FFFFFF; 
+text-decoration: none;}
 
 .aside-learn {
   background: rgba(255, 255, 255, 0.7);
-  transform: rotate(-0.67deg);
+  -webkit-transform: rotate(-0.67deg);
+      -ms-transform: rotate(-0.67deg);
+          transform: rotate(-0.67deg);
   position: absolute;
   top: 62%;
-  right: 23%;
-  padding: 1rem 3.5rem 1rem 3.5rem; }
+  right: 15%;
+  padding: 1rem 3.5rem 1rem 3.5rem; 
+  backface-visibility: hidden; }
 
-.learn-more {
+.learn-more a {
   font-weight: bold;
   font-size: 36px;
   line-height: 43px;
-  color: #000000; }
+  color: #000000;
+text-decoration: none;
+ }
+
+
+.documentry-heading{
+font-size: 36px;
+line-height: 43px;
+letter-spacing: 20px;
+color: #FFFFFF;
+text-align: center;
+margin-top: 3.5rem;
+animation: MoveInBottom 3s ease-out;
+}
+
+  .save-planet {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    color: #fff;
+    position: relative;
+  }
+
+
+  .cirle-white {
+    content: "";
+    -webkit-clip-path: circle(50% at 50% 50%);
+            clip-path: circle(50% at 50% 50%);
+    background-color: #fff;
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    margin-right: 1rem;
+  }
+
+  .border-radius {
+font-size: 28px;
+line-height: 34px;
+letter-spacing: 10px;
+border-radius: 25px;
+background-color: #fff;
+color: black;
+display: inline-block;
+padding: 8px;
+margin-top: 1.8rem;
+  }
+
+  .point-1 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+  }
+
+
+.right-save {
+  position: absolute;
+  left: 8%;
+  top: 30%;
+}
+
+.right-save img {
+  width: 25rem;
+}
+
+.main-head-news {
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+  font-weight: bold;
+font-size: 38px;
+line-height: 46px;
+letter-spacing: 20px;
+color: #FFFFFF;
+text-align: center;
+}
+
+.first-head {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.save-heading {
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: 20px;
+  position: relative;
+  left: 5.5rem;
+  top: 2.8rem;
+  margin-top: 4rem;
+  }
+
+.save-sub-head {
+  font-size: 24px;
+  line-height: 29px;  
+  letter-spacing: 8px;
+  margin-bottom: 1rem;
+}
+
+.div {
+  margin-bottom: 1.6rem;
+}
+.rd-1 {
+ padding-right: 6rem;
+}
+.news {
+  background-color: black;
+  width: 85vw;
+  height: 100vh;
+  padding-top: 7vh; 
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+} 
+
+.img-aside {
+  float: left;
+}
+
+.img-aside img {
+  width: 20rem;
+  margin-left: 14rem;
+}
+.info-right {
+  float: right;
+  width: 40%;
+  margin-right: 7rem;
+}
+
+.button-news {
+  color: #000;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  display: inline-block;
+  padding: 0.4rem 1.2rem 0.4rem 1.2rem;
+  margin-top: 2rem;
+}
+.button-news a {
+  color: #000;
+  background-color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+line-height: 21px;
+font-weight: bold;
+}
+
+
+.divide-2 {
+margin-top: 4rem;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+
+/* Donate Page */
+
+.image-doc-2 {
+  width: 40%;
+  border: 2px solid white;
+}
+
+.p-style-2 {
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.3rem;
+  color: #FFFFFF;
+  float: left;
+  width: 23%;
+  margin-left: 3rem;
+ }
+
+ .main-donate-head {
+   color: #fff;
+   margin-top: 3.5rem;
+   text-align: center;
+   border-bottom: 1px solid white;
+   margin-bottom: 1rem;
+   position: relative;
+   left: 33rem;
+   padding: 0.5rem;
+   font-size: 36px;
+line-height: 43px;
+letter-spacing: 25px;
+   
+ }
+
+ .donate-head {
+   position: absolute;
+   margin-bottom: 3rem;
+ }
+
+ .fa {
+   color: red;
+ }
+
+ .footer {
+   margin: 1.5rem;
+ }
+
+/* Animation */
+
+@keyframes MoveInRight {
+  0% {
+opacity: 0;
+transform: translateX(100px);
+  }
+  80% {
+opacity: 0;
+transform: translateX(-10px);
+  }
+  100% {
+  opacity: 1;
+  transform: translateX(0);
+  }
+}
+
+@keyframes MoveInBottom {
+  0% {
+opacity: 0;
+transform: translateY(-100px);
+  }
+  80% {
+opacity: 0;
+transform: translateY(10px);
+  }
+  100% {
+  opacity: 1;
+  transform: translate(0);
+  }
+}
+@keyframes scaleOut {
+  0% {
+opacity: 0;
+transform: scale(2.5);
+  }
+  80% {
+opacity: 0.5;
+transform: scale(1.5);
+  }
+  /* 90% {
+opacity: 0.8; 
+transform: scale(1.2);  } */
+  100% {
+  opacity: 1;
+  transform: scale(1);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
